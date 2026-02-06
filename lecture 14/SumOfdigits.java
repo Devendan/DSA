@@ -7,8 +7,6 @@ public class SumOfdigits {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int res = 0 ;
-
-    
     
         while(n != 0){
             res += n%10 ;
